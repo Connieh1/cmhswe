@@ -13,8 +13,6 @@ $(document).ready(function () {
     showCursor: false,
   });
 
-  // Fancybox.bind("[data-fancybox]");
-
   $("[data-fancybox]").fancybox();
 
   $(".items").isotope({
