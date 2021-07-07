@@ -13,9 +13,9 @@ $(document).ready(function () {
     showCursor: false,
   });
 
-  Fancybox.bind("[data-fancybox]");
+  // Fancybox.bind("[data-fancybox]");
 
-  //$("[data-fancybox]").fancybox();
+  $("[data-fancybox]").fancybox();
 
   $(".items").isotope({
     filter: "*",
